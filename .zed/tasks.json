@@ -1,0 +1,35 @@
+[
+  {
+    "label": "Build & Run",
+    "command": "roc",
+    "args": ["dev", "youtube-downloader.roc"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system"
+  },
+  {
+    "label": "Check",
+    "command": "roc",
+    "args": ["check", "youtube-downloader.roc"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system"
+  },
+  {
+    "label": "Test",
+    "command": "roc",
+    "args": ["test", "youtube-downloader.roc"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system"
+  }
+]
